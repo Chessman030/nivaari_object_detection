@@ -1,0 +1,23 @@
+train/
+test/
+valid/
+
+.venv/
+venv/
+__pycache__/
+
+# Local runtime output
+.cache/
+*.log
+
+# Generated model artifacts
+*.pkl
+
+# Local environment and tool caches
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage

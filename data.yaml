@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names: ['Damaged_Concrete_Structures', 'Damaged_Electric_Poles', 'Damaged_Road_Signs', 'Dead_Animal_Pollution', 'Fallen_Trees', 'Garbage', 'Graffiti', 'pothole', 'road_crack']
+
+roboflow:
+  workspace: deshna
+  project: civic-issues-lroee
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deshna/civic-issues-lroee/dataset/3
